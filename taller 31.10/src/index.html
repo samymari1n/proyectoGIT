@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller en Clase</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Consulta de Operaciones</h1>
+
+        <div>
+            <h2>Fase 1: Declaración de Variables</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre"><br>
+            <label for="edadVar">Edad:</label>
+            <input type="number" id="edadVar" placeholder="Ingresa tu edad"><br>
+            <label for="esEstudiante">¿Es estudiante? (true/false):</label>
+            <input type="text" id="esEstudiante" placeholder="true o false"><br>
+            <button onclick="declaracionVariables()">Mostrar Variables</button>
+            <div id="resultadoFase1" class="resultado"></div>
+        </div>
+
+        <div>
+            <h2>Fase 2: Operaciones Matemáticas</h2>
+            <label for="numeroA">Número A:</label>
+            <input type="number" id="numeroA" placeholder="Ingresa el número A"><br>
+            <label for="numeroB">Número B:</label>
+            <input type="number" id="numeroB" placeholder="Ingresa el número B"><br>
+            <button onclick="operacionesMatematicas()">Mostrar Operaciones</button>
+            <div id="resultadoFase2" class="resultado"></div>
+        </div>
+
+        <div>
+            <h2>Fase 3: Consulta de Conducción</h2>
+            <label for="edad">¿Es mayor de edad? (true/false):</label>
+            <input type="text" id="edad" placeholder="true o false"><br>
+
+            <label for="licencia">¿Tiene licencia de conducir? (true/false):</label>
+            <input type="text" id="licencia" placeholder="true o false"><br>
+
+            <button onclick="operadoresLogicos()">Consultar</button>
+            <div id="resultadoFase3" class="resultado"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
